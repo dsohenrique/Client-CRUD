@@ -1,0 +1,83 @@
+*{ margin:0; padding:0;}
+
+body{ background:#EEE  url(img/bg-topo.jpg) repeat-x; font:Arial, Helvetica, sans-serif;}
+
+#topo{ height:98px; padding:17px 0; margin:0 0 0 20px; clear:both;}
+
+#menu #menu0 {font:14px Arial, Helvetica, sans-serif; color:#FFF; padding:15px 15px 8px 450px;}
+
+#menu {background:url(img/bg-menu-hover01.jpg);}
+
+/*MENU LISTA*/
+#menu ul {list-style: none; float:left;position: relative; background:#000; width:100%;}
+#menu ul li {float: left;}
+#menu ul li a {float: left;text-decoration: none; font: 15px "Trebuchet MS", Arial; padding: 11px 20px; text-align: center;color: #fff;border-right: 1px solid #fff;}
+#menu ul li a:hover {background: #777;}
+
+/*SUBMENU LISTA*/
+#menu ul li ul {position: absolute; width: 150px;top: 40px;display: none;}
+#menu ul li ul li{float: left;}
+#menu ul li ul li a{background:#A6A6A6; width: 200px; text-shadow: 1px 1px 1px #000;font-size: 11px; padding: 5px 0 5px 10px;text-align: justify;float: left;border: 1px solid #666;border-top: none; display: block;}
+#menu ul li ul li a:hover {background:url(img/bg-onmouse02.jpg);color: #000; text-shadow: 1px 1px 1px #fff;}
+
+/*APRESENTAÃ‡ÃƒO DO SUBMENU*/
+#menu ul li:hover ul {display: block;}
+
+/*
+#menu{ font:14px Arial, Helvetica, sans-serif; color:#FFF; text-align:center; padding:10px 0; background:url(img/bg-menu-hover01.jpg);}
+#menu ul{ list-style:none;}
+#menu ul li{ display:inline;}
+#menu ul li a{ padding:10px 20px; text-decoration:none; color:#FFF;}
+#menu ul li a:hover{ background:url(img/bg-onmouse02.jpg); color:#000;}
+*/
+
+#cadastro{ background:#FFF; padding:4px 20px; text-align:right; font:bold "Trebuchet MS", Arial; text-decoration:none;}
+#cadastro a{text-decoration:none; text-shadow:2px 2px 2px #FFF;}
+#cadastro a:hover{ color:#069;}
+
+/*#menu{ font:14px Arial, Helvetica, sans-serif; color:#FFF; text-align:right; padding:8px 15px 8px 0;} */
+
+#navlink{ text-align:right; font:10px "Trebuchet MS", Arial; color:#333; padding:5px 18px; background:#FFF;}
+
+#conteudo{background:#CCC; width:100%; float:left; padding:0 0 10px 0;}
+
+
+.nome_cadastro{ text-align:center; font:12px Verdana, Geneva, sans-serif; color:#666; background:url(img/menu_esquerdo.jpg); font-weight:bold; padding:3px 0 3px 0;}
+
+.menu_menu{ background:url(img/menu_esquerdo.jpg); text-align:left; padding:8px 0 5px 5px; width:150px; text-decoration:none;}
+.menu_menu a{ font:12px Arial, Verdana, Tahoma; color:#333; text-decoration:none; text-shadow:2px 2px 2px #FFF;}
+.menu_menu a:hover{ color:#069; text-decoration:none;}
+
+#rodape{ margin:10px auto; width:100%; height:100px; clear:both; font:11px Arial, Helvetica, sans-serif; color:#999; text-align:center; padding:5px 0 0 0;}
+/* FECHANDO AS CONFIGURAÇÕES BASE DA TELA HOME */
+
+#formcliente{ text-decoration:none;}
+#formcliente h2{ font: Arial, Helvetica, sans-serif; color:#333; padding:5px;}
+#formcliente td{ padding:5px 0 5px 10px;}
+#formcliente span{ font:12px Arial, Helvetica, sans-serif; text-align:right; display:block;}
+#formcliente input{ font:12px Arial, Helvetica, sans-serif; display:block;}
+
+#linka{ background:#0F0;}
+
+/* FECHANDO AS CONFIGURAÇÕES BASE DA TELA FORMCLIENTE */
+
+#parabens{ margin:50px 0 32px 0; font:14px Verdana, Geneva, sans-serif;}
+
+/* FECHANDO AS CONFIGURAÇÕES BASE DA TELA PARABENS */
+
+.textazul{ color:#06F;}
+#solicitacao td{ padding:5px;}
+#solicitacao span{ font:12px Arial, Helvetica, sans-serif; text-align:left;}
+
+#teste00{ background:#CCC;}
+#teste02{ background:#FFF;}
+
+#amarelo h2{ font-family:Arial, Helvetica, sans-serif;color:#000; padding:0 10px 0 10px; margin:10px 0 0 0; text-align:center;}
+
+#formcliente .btnExc {padding: 10px 60px; background: #900 !important; border: 1px solid #000;color: #fff; border-radius:3px; text-shadow: 1px 1px 1px #000;display: block; cursor: pointer;float: right !important;margin-top: 10px;}
+
+#formcliente .btnExc01 {padding: 10px 10px; background: #900 !important; border: 1px solid #000;color: #fff; border-radius:3px; text-shadow: 1px 1px 1px #000;display: block; cursor: pointer;float: right !important;margin-top: 10px;}
+
+#formcliente table{border: 1px solid #A6A6A6; border-radius: 5px; padding: 0 9px 10px 0;font: 15px "Trebuchet MS", Arial;color: #000; margin:10px;}
+
+.erro { color:#00F;}

@@ -1,0 +1,7 @@
+*{ margin:0; padding:0;}
+
+#formimpressao{ text-decoration:none;}
+#formimpressao h2{ font: Arial, Helvetica, sans-serif; color:#333; padding:5px;}
+#formimpressao td{ padding:5px 0 5px 10px;}
+#formimpressao span{ font:12px Arial, Helvetica, sans-serif; text-align:right; display:block;}
+#formimpressao input{ font:12px Arial, Helvetica, sans-serif; display:block;}

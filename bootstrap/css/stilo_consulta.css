@@ -1,0 +1,20 @@
+
+#container #conteudo table tr.listra1 {background:#FFF; text-shadow: 1px 1px 1px #fff;}
+
+#container #conteudo table tr.listra2 {background:#E8E8E8; text-shadow: 1px 1px 1px #fff;}
+
+.pg-selected 
+{
+	font:10px verdana;
+	color: #fff;
+	text-decoration: none;    
+	cursor: pointer;
+	background-color:#000;
+	padding:3px 6px;
+	margin:1px;
+	border: 1px solid #dde;
+}
+#paginacao{}
+
+
+/* .linha{ border: 1px solid #09F;} */

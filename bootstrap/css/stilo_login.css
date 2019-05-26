@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{ background:#EEE  url(img/bg-topo.jpg) repeat-x; font:12px Arial, Helvetica, sans-serif;}
+
+
+#cadastro{
+	padding: 4px 20px;
+	text-align: right;
+	font: bold "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background-image: none;
+}
+#cadastro a{text-decoration:none; text-shadow:2px 2px 2px #FFF;}
+#cadastro a:hover{
+	color: #069;
+	font-style: normal;
+}
+
+#topo{ height:103px; width:752px; margin:auto; padding:17px 0; clear:both;}
+
+#menu{ font:14px Arial, Helvetica, sans-serif; color:#FFF; text-align:center; padding:8px 0; margin:3px 3px 5px 3px;}
+#menu ul{ list-style:none;}
+#menu ul li{ display:inline;}
+#menu ul li a{ padding:10px 20px; text-decoration:none; color:#FFF;}
+#menu ul li a:hover{ background:url(img/bg-menu-hover.jpg);}
+
+#navlink{ text-align:right; font:10px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; padding:5px 18px; display:block;}
+
+#conteudo{ width:749px; margin:0 auto; display:block; padding:0 0 10px 0; background:#FFF url(img/bg-conteudo.gif) no-repeat bottom; overflow:auto;}
+
+#bloco-esquerdo{ font:12px Arial, Helvetica, sans-serif; width:470px; float:left; text-align:justify; margin: 10px 10px 10px 15px;}
+#bloco-esquerdo img{ margin:0 0 10px 0;}
+#bloco-esquerdo h1{ color:#FF3; padding:5px;}
+
+#bloco-direito{ font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; width:224px; height:300px; float:right; margin:10px 15px 10px 0; padding:10px 5px 0 5px; background:#FFE153 url(img/bg-sidebar.gif) no-repeat bottom;}
+
+#rodape{ margin:10px auto; width:752px; height:100px; clear:both; font:11px Arial, Helvetica, sans-serif; color:#999;}
+
+#final{ background:#999; text-decoration:none; font:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+#final table{ width:100%;}
+#final p{ font-weight:bold;}
+
+.social{ width:45px; height:45px; padding:5px; text-decoration:none;}
+
+/* FECHANDO AS CONFIGURAÇÕES BASE DA TELA INDEX */
+
+#conteudo_central{ }
+#conteudo_central fieldset{ width:220px; font:18px Arial, Helvetica, sans-serif; color:#333; padding:20px 3px 20px 3px; margin:20px}
+#conteudo_central span{ font:14px Verdana, Geneva, sans-serif; display:block; padding:5px; text-align:left;}
+#conteudo_central input{ width:198px; padding:5px; font:12px Arial, Helvetica, sans-serif; display:block;}
+#conteudo_central .btn{ width:80px; margin-top:10px;}
+.btn:hover{ color:#069;}
+
+#informacao{
+	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 30px;
+	background-color: #999;
+}
+
+/* FECHANDO AS CONFIGURAÇÕES BASE DA TELA LOGIN */
+
+#informacao p{ color:#F00; font:14px Arial, Helvetica, sans-serif;}
+
+/* FECHANDO AS CONFIGURAÇÕES BASE DA TELA LOGIN_ERRO */
+
+#conteudo_central .link{ font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#666; text-align:center; text-decoration:none; margin:20px 0 10px 0}
+#conteudo_central .link a{ text-shadow:2px 2px 2px #FFF; text-decoration:none;}
+#conteudo_central .link a:hover{ color:#069; text-decoration:none;}
+
+/* FECHANDO AS CONFIGURAÇÕES BASE DA TELA LOGIN_ERRO_CLIENTE */
