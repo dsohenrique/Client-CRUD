@@ -29,7 +29,7 @@ include "conexao/conexao.php";
 			<label for="inputEmail" class="sr-only">login</label>
 				<input type="text" style="text-transform:uppercase" id="inputEmail"  name="login"class="form-control" placeholder="login" required autofocus>
 			<label for="inputPassword" class="sr-only">senha</label>
-				<input type="password" id="inputPassword" name="senha" class="form-control" placeholder="senha" required>
+				<input type="password" id="inputPassword" name="senha" class="form-control" placeholder="SENHA" required>
 				<!-- <div class="checkbox">
 				<label>
 					<input type="checkbox" value="remember-me" name="lembrar"> Remember me
