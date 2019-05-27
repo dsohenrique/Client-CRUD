@@ -6,6 +6,7 @@ session_start();
 // as variáveis login e senha recebem os dados digitados na página anterior
 $login = $_POST['login'];
 $senha = md5(sha1($_POST['senha']));
+//$senha = $_POST['senha'];
 
 // A vriavel $result pega as varias $login e $senha, faz uma pesquisa na tabela de usuarios
 $query = "select login, senha, status from $nome_banco.usuarios where login = '".$login."' and senha = '".$senha."'";
