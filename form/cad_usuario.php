@@ -129,9 +129,9 @@ if(obs == "")
 										<table align="center">
 											<td colspan="1">            
 												<td><br><br>
-												    <button type="submit" class="btn btn-primary" onclick="return valida_campo()"  onClick="submit()"  >Cadastrar</button>
-													<button type="reset" class="btn btn-primary">Limpar</button>
-													<a href="index.php"><button type="button" class="btn btn-primary">Cancelar</button> </a>
+												    <button type="submit" class="btn btn-primary" onclick="return valida_campo()"  onClick="submit()">Cadastrar</button>
+													<button type="reset" class="btn btn-warning">Limpar</button>
+													<a href="index.php"><button type="button" class="btn btn-danger">Cancelar</button> </a>
 												</td>
 											</td>
 										</table>

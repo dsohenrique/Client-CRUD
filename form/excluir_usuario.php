@@ -146,7 +146,7 @@ if(obs == "")
 													<input name ="codigo" type = "hidden" id = "codigo" value = " <?php echo $cod_user ?>">
 														<button type="submit" class="btn btn-danger"  >Excluir</button>
 		    
-													<a href="../index.php?page=form/consulta_usuario&contato="><button type="button" class="btn btn-primary">Cancelar</button> </a>
+													<a href="../index.php?page=form/consulta_usuario&contato="><button type="button" class="btn btn-warning">Cancelar</button> </a>
 												</td>
 											</td>
 										</table>

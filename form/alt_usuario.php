@@ -148,7 +148,7 @@ if(obs == "")
 													<?php }else{?>
 													<?php } ?>
 												    
-													<a href="../index.php?page=form/consulta_usuario&contato="><button type="button" class="btn btn-primary">Cancelar</button> </a>
+													<a href="../index.php?page=form/consulta_usuario&contato="><button type="button" class="btn btn-warning">Cancelar</button> </a>
 												</td>
 											</td>
 										</table>

@@ -455,7 +455,7 @@ window.onload = function(){
 												<button type="submit" class="btn btn-primary" onclick="return valida_campo()"  onClick="submit()"  >Alterar</button>
 												<?php }else{?>
 												<?php } ?>
-												<a href="../index.php?page=form/consulta_cliente&contato="><button type="button" class="btn btn-primary">Cancelar</button> </a>
+												<a href="../index.php?page=form/consulta_cliente&contato="><button type="button" class="btn btn-warning">Cancelar</button> </a>
 											</td>
 										</td>
 									</table>

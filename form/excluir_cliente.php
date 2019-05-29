@@ -374,7 +374,7 @@ window.onload = function(){
 												<td><br><br>
 													<input name ="codigo" type = "hidden" id = "codigo" value = " <?php echo $codigo ?>">
 														<button type="submit" class="btn btn-danger"  >Excluir</button>
-													<a href="../index.php?page=form/consulta_cliente&contato="><button type="button" class="btn btn-primary">Cancelar</button> </a>
+													<a href="../index.php?page=form/consulta_cliente&contato="><button type="button" class="btn btn-warning">Cancelar</button> </a>
 												</td>
 											</td>
 										</table>
