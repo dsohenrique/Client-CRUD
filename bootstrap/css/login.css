@@ -1,11 +1,11 @@
+
 body {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #eee;
+  padding-top: 40px;  
   background-image: url(../../imagens/login_background_1.jpg);
   background-position: center;
-  background-size: 100% 200%; 
+  background-size: 100% 500%; 
   background-repeat: no-repeat
+  padding-bottom: 40px;
 }
 
 .form-signin {
@@ -22,7 +22,7 @@ body {
 }
 .form-signin .form-control {
   position: relative;
-  height: auto;
+  height: 100%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;

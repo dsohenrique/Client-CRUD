@@ -16,11 +16,11 @@ include "../conexao/conexao.php";
 	$data			 = $linha['data'];
 	$obs 			 = $linha['obs'];
 
-include "../index.php";
 ?>
 <html>
 <head>
 	<link rel='stylesheet' href="calendar.css" type='text/css'/>
+	<link href="../bootstrap/css/stilo_sistema.css" rel="stylesheet">
 	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<script src="../bootstrap/js/jquery.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>

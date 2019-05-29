@@ -1,6 +1,11 @@
 *{ margin:0; padding:0;}
-
-body{ background:#EEE  url(img/bg-topo.jpg) repeat-x; font:Arial, Helvetica, sans-serif;}
+html{
+  background-image: url(../../imagens/login_background_1.jpg);
+  background-position: center;
+  background-size: 100% 2000px; 
+  background-repeat: no-repeat
+}
+body{font:Arial, Helvetica, sans-serif;}
 
 #topo{ height:98px; padding:17px 0; margin:0 0 0 20px; clear:both;}
 

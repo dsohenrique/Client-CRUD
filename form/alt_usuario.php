@@ -16,11 +16,12 @@ include "../conexao/conexao.php";
 	$data			 = $linha['data'];
 	$obs 			 = $linha['obs'];
 
-include "../index.php";
+
 ?>
 <html>
 <head>
 	<link rel='stylesheet' href="calendar.css" type='text/css'/>
+	<link href="../bootstrap/css/stilo_sistema.css" rel="stylesheet">
 	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<script src="../bootstrap/js/jquery.min.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
@@ -80,8 +81,7 @@ if(obs == "")
 
 </script>
 
-<body>
-						
+<body>					
 <div class="container theme-showcase" role="main">
 	<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 		<div class="modal-dialog" role="document">
@@ -143,7 +143,7 @@ if(obs == "")
 											<td colspan="1">            
 												<td><br><br>
 													<input name ="codigo" type = "hidden" id = "codigo" value = " <?php echo $cod_user ?>">
-													<?php if ($nivell==1){?>
+													<?php if ($nivel==1){?>
 														<button type="submit" class="btn btn-primary" onclick="return valida_campo()"  onClick="submit()"  >Alterar</button>
 													<?php }else{?>
 													<?php } ?>

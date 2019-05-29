@@ -1,3 +1,9 @@
+body{
+  background-image: url(../../imagens/login_background_1.jpg);
+  background-position: center;
+  background-size: 100% 3000%; 
+  background-repeat: no-repeat
+}
 .form-horizontal{
   max-width: 400px;
   padding: 15px;
